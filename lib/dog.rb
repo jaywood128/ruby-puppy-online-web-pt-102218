@@ -4,7 +4,7 @@ class Dog
 
   @@all = []
 
-  def intialize
+  def intialize(name)
     @name = name
     @@all << self
   end
