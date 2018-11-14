@@ -4,10 +4,13 @@ class Dog
 
   @@all = []
 
-  def intialize(name)
+  def intialize
     @name = name
     @@all << self
   end
+
+  def clear_all.self 
+    
 
 
 end
